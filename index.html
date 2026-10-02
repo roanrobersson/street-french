@@ -1,0 +1,648 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="pt-BR" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Manual do Francês Informal | Quando Bonjour vira Wesh - por Gabi Kondo</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,700;1,800&amp;family=Syne:wght@700;800&amp;display=swap" rel="stylesheet">
+<!-- Font Awesome Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Syne"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              yellow: '#FACC15',
+              yellowHover: '#EAB308',
+              magenta: '#EC4899',
+              dark: '#0B0F17',
+              darker: '#06080D',
+              card: '#131A26',
+              cardBorder: '#232D3F',
+              accent: '#38BDF8'
+            }
+          },
+          boxShadow: {
+            'glow-yellow': '0 0 35px -5px rgba(250, 204, 21, 0.4)',
+            'glow-magenta': '0 0 35px -5px rgba(236, 72, 153, 0.35)',
+            'neon-btn': '0 8px 24px -4px rgba(250, 204, 21, 0.5)',
+          }
+        }
+      }
+    }
+  </script>
+<!-- Custom CSS for specific aesthetic touches -->
+<style data-purpose="custom-styling">
+    .bg-grid-pattern {
+      background-size: 40px 40px;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    }
+    .badge-gradient {
+      background: linear-gradient(135deg, rgba(236, 72, 153, 0.2) 0%, rgba(250, 204, 21, 0.1) 100%);
+      border: 1px solid rgba(236, 72, 153, 0.3);
+    }
+    .text-gradient-yellow {
+      background: linear-gradient(135deg, #FFF 20%, #FACC15 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .text-gradient-magenta {
+      background: linear-gradient(135deg, #F472B6 0%, #EC4899 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-brand-darker text-slate-100 font-sans antialiased overflow-x-hidden selection:bg-brand-yellow selection:text-black">
+<!-- BEGIN: TopNotificationBar -->
+<div class="bg-gradient-to-r from-pink-600 via-rose-600 to-amber-500 py-2.5 px-4 text-center text-xs md:text-sm font-bold tracking-wide uppercase shadow-lg sticky top-0 z-50 flex items-center justify-center gap-2" data-purpose="urgency-banner">
+<span class="inline-block animate-pulse text-yellow-200">⚡</span>
+<span class="">OFERTA ESPECIAL POR TEMPO LIMITADO:</span>
+<span class="bg-black/40 text-yellow-300 px-2 py-0.5 rounded border border-yellow-300/30 font-extrabold tracking-wider">85% OFF COM CUPOM ARGOT</span>
+<a class="underline ml-2 hidden sm:inline hover:text-white transition" href="https://pay.hotmart.com/W102800251J?checkoutMode=10&amp;hotfeature=51" target="_blank">APROVEITAR AGORA →</a>
+</div>
+<!-- END: TopNotificationBar -->
+<!-- BEGIN: HeroSection -->
+<header class="relative pt-12 pb-20 lg:pt-20 lg:pb-28 overflow-hidden bg-grid-pattern border-b border-brand-cardBorder/60">
+<!-- Atmospheric Ambient Glows -->
+<div class="absolute top-10 left-1/2 -translate-x-1/2 w-[650px] h-[350px] bg-brand-magenta/15 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+<div class="absolute top-40 right-10 w-[450px] h-[300px] bg-brand-yellow/10 rounded-full blur-[130px] pointer-events-none -z-10"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Left Column: Copy & CTAs -->
+<div class="lg:col-span-7 text-center lg:text-left">
+<!-- Category Pill -->
+<div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full badge-gradient mb-6">
+<span class="w-2 h-2 rounded-full bg-brand-yellow animate-ping"></span>
+<span class="text-xs md:text-sm font-extrabold tracking-wider uppercase text-pink-300">
+              Manual do Francês Informal • Street French
+            </span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.12] mb-6">
+            Quando <span class="line-through decoration-brand-magenta text-slate-400 font-normal">Bonjour</span> vira <span class="italic text-brand-yellow underline decoration-wavy decoration-pink-500 underline-offset-8">Wesh</span>.
+            <span class="block text-2xl sm:text-3xl lg:text-4xl mt-3 font-sans font-bold text-slate-200">
+              Aprenda o francês que as pessoas reais realmente falam.
+            </span>
+</h1>
+<!-- Subheadline -->
+<p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal mb-8">
+            "De que serve estudar gramática clássica por 3 anos se você não pega ninguém na balada, não entende um filme e fica boiando nas rodas em Paris?"
+            <span class="block mt-2 font-medium text-brand-yellow">Descubra o atalho direto entre a sala de aula e as calçadas da França real.</span>
+</p>
+<!-- Core Feature Bullets -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-10 text-left max-w-xl mx-auto lg:mx-0">
+<div class="flex items-center gap-2.5 bg-brand-card/90 border border-brand-cardBorder p-3 rounded-xl">
+<i class="fa-solid fa-fire text-brand-magenta text-lg"></i>
+<span class="text-sm font-semibold text-slate-200">Gírias, Verlan &amp; Argot 100% autênticos</span>
+</div>
+<div class="flex items-center gap-2.5 bg-brand-card/90 border border-brand-cardBorder p-3 rounded-xl">
+<i class="fa-solid fa-heart text-pink-500 text-lg"></i>
+<span class="text-sm font-semibold text-slate-200">Como flertar sem passar vergonha</span>
+</div>
+<div class="flex items-center gap-2.5 bg-brand-card/90 border border-brand-cardBorder p-3 rounded-xl">
+<i class="fa-solid fa-beer-mug-empty text-brand-yellow text-lg"></i>
+<span class="text-sm font-semibold text-slate-200">Rolês, bares, festas e noite francesa</span>
+</div>
+<div class="flex items-center gap-2.5 bg-brand-card/90 border border-brand-cardBorder p-3 rounded-xl">
+<i class="fa-solid fa-volume-high text-brand-accent text-lg"></i>
+<span class="text-sm font-semibold text-slate-200">Áudios &amp; encenações sem censura</span>
+</div>
+</div>
+<!-- Hero CTA Actions -->
+<div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+<a class="w-full sm:w-auto px-8 py-4 bg-brand-yellow hover:bg-brand-yellowHover text-slate-950 font-extrabold text-lg rounded-xl shadow-neon-btn hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center justify-center gap-3 group" href="https://pay.hotmart.com/W102800251J?checkoutMode=10&amp;hotfeature=51" target="_blank">
+<span class="">QUERO FALAR FRANCÊS DA RUA</span>
+<i class="fa-solid fa-arrow-right group-hover:translate-x-1.5 transition-transform"></i>
+</a>
+<a class="w-full sm:w-auto px-6 py-4 bg-brand-card hover:bg-slate-800 text-slate-200 font-bold text-base rounded-xl border border-brand-cardBorder hover:border-slate-600 transition flex items-center justify-center gap-2" href="#conteudo">
+<i class="fa-solid fa-list-check text-brand-magenta"></i>
+<span class="">Ver Conteúdo Completo</span>
+</a>
+</div>
+<!-- Micro Proof Banner -->
+<div class="mt-6 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-xs text-slate-400">
+<span class="flex items-center gap-1.5">
+<i class="fa-solid fa-shield-halved text-emerald-400 text-sm"></i> 7 dias de garantia incondicional
+            </span>
+<span class="flex items-center gap-1.5">
+<i class="fa-solid fa-bolt text-brand-yellow text-sm"></i> Acesso imediato no celular e PC
+            </span>
+<span class="flex items-center gap-1.5">
+<i class="fa-solid fa-badge-check text-brand-accent text-sm"></i> Certificado digital incluso
+            </span>
+</div>
+</div>
+<!-- Right Column: Visual Badges & Street Aesthetic Mockup -->
+<div class="lg:col-span-5 flex justify-center relative">
+<div class="relative w-full max-w-md">
+<!-- Graphic Background Ring -->
+<div class="absolute -inset-1.5 bg-gradient-to-r from-brand-magenta via-brand-yellow to-brand-accent rounded-3xl blur-xl opacity-40 group-hover:opacity-75 transition duration-500"></div>
+<!-- Outer Card Container -->
+<div class="relative bg-brand-card border border-brand-cardBorder rounded-3xl p-6 shadow-2xl backdrop-blur-sm overflow-hidden">
+<!-- Paris Metro Badge Style Header -->
+<div class="flex items-center justify-between border-b border-brand-cardBorder/80 pb-4 mb-5">
+<div class="flex items-center gap-2.5">
+<span class="w-3.5 h-3.5 rounded-full bg-red-500 inline-block"></span>
+<span class="w-3.5 h-3.5 rounded-full bg-yellow-500 inline-block"></span>
+<span class="w-3.5 h-3.5 rounded-full bg-green-500 inline-block"></span>
+<span class="text-xs font-mono text-slate-400 ml-2">PARIS_UNDERGROUND_EDITION.vsl</span>
+</div>
+<span class="text-xs font-bold px-2 py-1 rounded bg-brand-magenta/20 text-brand-magenta uppercase">Original</span>
+</div>
+<!-- Visual Representation / Poster Graphic -->
+<div class="relative rounded-2xl bg-gradient-to-b from-slate-900 to-black p-5 border border-slate-800 text-center overflow-hidden"><div class="absolute top-2 right-2 rotate-12 bg-brand-yellow text-black font-black text-xs px-2.5 py-1 rounded-md shadow-md z-20">HOT TOPIC 🔥</div><div class="relative rounded-xl overflow-hidden mb-4 border border-brand-cardBorder"><img src="https://lh3.googleusercontent.com/aida/AEtjO1XXbtS-ca5y38AudhYn-pRvMREmFeluqtNqcD16Ur8TrBJymAaBtdosrrFwUI1Gozz6QYQN32Hvt_Yk28akmsKagV6cbid3XvErNzn09gFbraI-C9t9Uvhra0Irbcj-HKfBt8jl9Zn4qrxVhzrBHPFWbH5ttEm1SYd7JfI2sD-0bdbs1B0X_s5Cy_PheWLxeXFW6GzEmiIxxW177G6TJsnAC5geRDugCH8oFcSVI5q67eZF_6-dyRElUzI" alt="Manual do Francês Informal" class="w-full h-auto object-cover transform hover:scale-105 transition duration-500"><div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div><div class="absolute bottom-3 left-3 right-3 text-left"><span class="text-[10px] tracking-widest uppercase font-bold text-pink-400 bg-black/60 px-2 py-0.5 rounded border border-pink-500/30">C'est Chaud • Street Edition</span></div></div><div class="flex flex-wrap gap-1.5 justify-center mb-4"><span class="text-[11px] bg-slate-800/90 text-pink-300 px-2.5 py-1 rounded-full font-mono font-medium">#LeVerlan</span><span class="text-[11px] bg-slate-800/90 text-amber-300 px-2.5 py-1 rounded-full font-mono font-medium">#FlerteParisien</span><span class="text-[11px] bg-slate-800/90 text-sky-300 px-2.5 py-1 rounded-full font-mono font-medium">#NoFilter</span><span class="text-[11px] bg-slate-800/90 text-emerald-300 px-2.5 py-1 rounded-full font-mono font-medium">#SlangDictionary</span></div><a href="https://pay.hotmart.com/W102800251J?checkoutMode=10&amp;hotfeature=51" target="_blank" class="bg-brand-dark/95 border border-brand-yellow/40 hover:border-brand-yellow rounded-xl p-3 flex items-center justify-between transition group"><div class="text-left"><span class="text-[10px] text-slate-400 block uppercase">Preço com cupom ARGOT</span><span class="text-xl font-black text-brand-yellow group-hover:text-yellow-300">12x de R$ 15,47</span></div><span class="text-xs font-extrabold bg-brand-magenta text-white px-3 py-1.5 rounded-lg shadow-sm">85% OFF</span></a></div>
+<!-- Micro Social Proof below box -->
+<div class="mt-4 flex items-center justify-between text-xs text-slate-400 px-1">
+<span class="flex items-center gap-1 text-amber-400">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<strong class="text-slate-200 ml-1">4.9/5</strong>
+</span>
+<span class="">+2.400 alunos falando sem filtro</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- END: HeroSection -->
+<!-- BEGIN: ContrastSection -->
+<section class="py-20 bg-brand-dark relative border-b border-brand-cardBorder/60" id="comparativo">
+<div class="max-w-6xl mx-auto px-4 sm:px-6">
+<!-- Section Title Header -->
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="text-xs font-bold uppercase tracking-widest text-brand-magenta bg-brand-magenta/10 px-3.5 py-1 rounded-full border border-brand-magenta/20">
+          A Realidade Nua e Crua
+        </span>
+<h2 class="font-display text-3xl sm:text-4xl font-extrabold text-white mt-4 tracking-tight">
+          Gíria pra quê? <span class="text-brand-yellow">Porque ninguém fala como em 1850.</span>
+</h2>
+<p class="text-slate-400 text-base sm:text-lg mt-3">
+          Pergunte para qualquer brasileiro que desembarcou em Paris achando que sabia francês: te responderão que <strong class="text-slate-200">entenderam tudo, menos o que as pessoas falavam</strong>.
+        </p>
+</div>
+<!-- Comparison Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+<!-- School French Card (Boring / Outdated) -->
+<div class="bg-brand-card/40 border border-red-500/20 rounded-2xl p-6 sm:p-8 flex flex-col justify-between relative overflow-hidden">
+<div class="absolute top-0 right-0 bg-red-500/10 text-red-400 text-xs font-bold px-4 py-1.5 rounded-bl-xl border-l border-b border-red-500/20">
+            FRANCÊS DA ESCOLA TRADICIONAL
+          </div>
+<div>
+<div class="w-12 h-12 rounded-xl bg-red-500/15 flex items-center justify-center text-red-400 text-xl mb-6">
+<i class="fa-solid fa-book-skull"></i>
+</div>
+<h3 class="text-xl font-bold text-slate-100 mb-3">Você parece um personagem de romance clássico</h3>
+<p class="text-slate-400 text-sm leading-relaxed mb-6">
+              Você passa meses decorando o <em>Subjonctif Imparfait</em> e frases formais que só maîtres de hotéis 5 estrelas usam. Quando pisa no metrô ou num bar em Belleville, fica completamente travado.
+            </p>
+<ul class="space-y-3 font-mono text-xs sm:text-sm text-slate-300">
+<li class="bg-slate-900/80 p-3 rounded-lg border border-slate-800 flex items-start gap-2.5">
+<span class="text-red-400 font-bold">✕</span>
+<div>
+<span class="text-slate-400 line-through">"Bonjour monsieur, je vous prie de m'excuser..."</span>
+<div class="text-[11px] text-slate-500">Soa antiquado e robótico entre jovens.</div>
+</div>
+</li>
+<li class="bg-slate-900/80 p-3 rounded-lg border border-slate-800 flex items-start gap-2.5">
+<span class="text-red-400 font-bold">✕</span>
+<div>
+<span class="text-slate-400 line-through">"Cette femme est vraiment très énervante."</span>
+<div class="text-[11px] text-slate-500">Ninguém fala isso na mesa do bar.</div>
+</div>
+</li>
+<li class="bg-slate-900/80 p-3 rounded-lg border border-slate-800 flex items-start gap-2.5">
+<span class="text-red-400 font-bold">✕</span>
+<div>
+<span class="text-slate-400 line-through">"Voulez-vous aller prendre un verre avec moi ?"</span>
+<div class="text-[11px] text-slate-500">Zero sex appeal, chance nula de flerte descolado.</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="mt-8 pt-4 border-t border-slate-800 text-xs text-red-400/90 font-medium">
+            Resultado: Insegurança, cara de turista perdido e exclusão das piadas locais.
+          </div>
+</div>
+<!-- Real Street French Card (Authentic / Dynamic) -->
+<div class="bg-gradient-to-b from-brand-card to-slate-900 border-2 border-brand-yellow/60 rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-glow-yellow/20 relative">
+<div class="absolute top-0 right-0 bg-brand-yellow text-slate-950 font-black text-xs px-4 py-1.5 rounded-bl-xl shadow">
+            FRANCÊS DA VIDA REAL (MANUAL INFORMAL)
+          </div>
+<div>
+<div class="w-12 h-12 rounded-xl bg-brand-yellow/20 flex items-center justify-center text-brand-yellow text-xl mb-6">
+<i class="fa-solid fa-bolt-lightning"></i>
+</div>
+<h3 class="text-xl font-bold text-white mb-3">Você soa nativo, confiante e magnético</h3>
+<p class="text-slate-300 text-sm leading-relaxed mb-6">
+              A chave que abre a porta entre o francês do livro e a França viva: gírias árabes incorporadas, inversão de sílabas (Verlan), expressões de malandragem e papo de bar.
+            </p>
+<ul class="space-y-3 font-mono text-xs sm:text-sm text-slate-200">
+<li class="bg-brand-darker/90 p-3 rounded-lg border border-brand-cardBorder flex items-start gap-2.5">
+<span class="text-brand-yellow font-bold">✓</span>
+<div>
+<span class="text-brand-yellow font-bold">"Wesh frérot, ça dit quoi ?"</span>
+<div class="text-[11px] text-slate-400">O cumprimento universal moderno das ruas.</div>
+</div>
+</li>
+<li class="bg-brand-darker/90 p-3 rounded-lg border border-brand-cardBorder flex items-start gap-2.5">
+<span class="text-brand-yellow font-bold">✓</span>
+<div>
+<span class="text-pink-400 font-bold">"Elle est trop relou / Elle me casse les couilles."</span>
+<div class="text-[11px] text-slate-400">Verlan puro + intensidade coloquial exata.</div>
+</div>
+</li>
+<li class="bg-brand-darker/90 p-3 rounded-lg border border-brand-cardBorder flex items-start gap-2.5">
+<span class="text-brand-yellow font-bold">✓</span>
+<div>
+<span class="text-emerald-400 font-bold">"Viens on se cale pour un godet !"</span>
+<div class="text-[11px] text-slate-400">Chamado natural para um drink sem parecer um robô.</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="mt-8 pt-4 border-t border-brand-cardBorder text-xs text-brand-yellow font-bold flex items-center justify-between">
+<span class="">Resultado: Conexão real, respeito imediato e rodas de conversa desbloqueadas.</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ContrastSection -->
+<!-- BEGIN: ContentModulesSection -->
+<section class="py-24 bg-brand-darker relative" id="conteudo">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Header with provocative copy -->
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="text-xs font-black uppercase tracking-widest text-brand-yellow bg-brand-yellow/10 px-3.5 py-1 rounded-full border border-brand-yellow/20">
+          Grade Sem Frescura
+        </span>
+<h2 class="font-display text-3xl sm:text-5xl font-black text-white mt-4 uppercase">
+          Qual o conteúdo <span class="text-gradient-magenta">dessa porra?</span>
+</h2>
+<p class="text-slate-400 text-base sm:text-lg mt-3">
+          Tudo o que os cursinhos tradicionais têm medo de ensinar por moralismo ou ignorância. O léxico das esquinas, festas, relacionamentos e vivências cotidianas.
+        </p>
+</div>
+<!-- Modules Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Module 1: Gírias Informais -->
+<div class="bg-brand-card hover:bg-slate-900 border border-brand-cardBorder hover:border-brand-magenta/60 p-6 rounded-2xl transition duration-300 group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-pink-500/10 text-pink-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+<i class="fa-solid fa-comments"></i>
+</div>
+<span class="text-[11px] font-mono font-bold text-pink-400 uppercase tracking-widest">Módulo 01</span>
+<h3 class="text-xl font-bold text-white mt-1 mb-2 group-hover:text-brand-magenta transition">Gírias &amp; Expressões do Cotidiano</h3>
+<p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              As palavras que pontuam 90% das frases em qualquer roda: <em>genre, grave, ouf, machin, truc, carrément</em> e os tiques linguísticos dos parisienses.
+            </p>
+</div>
+<div class="mt-6 pt-3 border-t border-brand-cardBorder/60 text-[11px] font-semibold text-slate-300 flex items-center justify-between">
+<span class="">Áudio Nativo + Ficha PDF</span>
+<i class="fa-solid fa-check text-brand-magenta"></i>
+</div>
+</div>
+<!-- Module 2: Como Flerter -->
+<div class="bg-brand-card hover:bg-slate-900 border border-brand-cardBorder hover:border-pink-500/60 p-6 rounded-2xl transition duration-300 group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-rose-500/10 text-rose-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+<i class="fa-solid fa-kiss-wink-heart"></i>
+</div>
+<span class="text-[11px] font-mono font-bold text-rose-400 uppercase tracking-widest">Módulo 02</span>
+<h3 class="text-xl font-bold text-white mt-1 mb-2 group-hover:text-rose-400 transition">Como Flerter (e coisas quentes)</h3>
+<p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              Cantadas elegantes vs. cantadas furadas, vocabulário do flerte moderno, dates no bar, cama, anatomia informal e como não parecer um amador no Tinder.
+            </p>
+</div>
+<div class="mt-6 pt-3 border-t border-brand-cardBorder/60 text-[11px] font-semibold text-slate-300 flex items-center justify-between">
+<span class="">Vocabulário Íntimo &amp; Dates</span>
+<i class="fa-solid fa-check text-rose-400"></i>
+</div>
+</div>
+<!-- Module 3: Hábitos & Bares -->
+<div class="bg-brand-card hover:bg-slate-900 border border-brand-cardBorder hover:border-amber-400/60 p-6 rounded-2xl transition duration-300 group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+<i class="fa-solid fa-wine-glass"></i>
+</div>
+<span class="text-[11px] font-mono font-bold text-amber-400 uppercase tracking-widest">Módulo 03</span>
+<h3 class="text-xl font-bold text-white mt-1 mb-2 group-hover:text-brand-yellow transition">Hábitos &amp; Vocabulário Alcoólico</h3>
+<p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              Como pedir bebidas sem gaguejar, a cultura do <em>apéro</em>, termos de ressaca (<em>gueule de bois</em>), pagar rodadas e etiquetas de botequim francês.
+            </p>
+</div>
+<div class="mt-6 pt-3 border-t border-brand-cardBorder/60 text-[11px] font-semibold text-slate-300 flex items-center justify-between">
+<span class="">Manual do Apéro Francês</span>
+<i class="fa-solid fa-check text-amber-400"></i>
+</div>
+</div>
+<!-- Module 4: Gírias Árabes -->
+<div class="bg-brand-card hover:bg-slate-900 border border-brand-cardBorder hover:border-emerald-400/60 p-6 rounded-2xl transition duration-300 group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+<i class="fa-solid fa-earth-africa"></i>
+</div>
+<span class="text-[11px] font-mono font-bold text-emerald-400 uppercase tracking-widest">Módulo 04</span>
+<h3 class="text-xl font-bold text-white mt-1 mb-2 group-hover:text-emerald-400 transition">Gírias Árabes no Francês</h3>
+<p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              O fenômeno multicultural que domina a França jovem: <em>wesh, kiffer, seum, inchallah, starfoullah, sah, shouff</em> e quando e como usá-los sem soar forçado.
+            </p>
+</div>
+<div class="mt-6 pt-3 border-t border-brand-cardBorder/60 text-[11px] font-semibold text-slate-300 flex items-center justify-between">
+<span class="">Guia de Cultura Urbana</span>
+<i class="fa-solid fa-check text-emerald-400"></i>
+</div>
+</div>
+<!-- Module 5: O Verlan (L'envers) -->
+<div class="bg-brand-card hover:bg-slate-900 border border-brand-cardBorder hover:border-brand-accent/60 p-6 rounded-2xl transition duration-300 group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-sky-500/10 text-brand-accent flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+<i class="fa-solid fa-arrows-rotate"></i>
+</div>
+<span class="text-[11px] font-mono font-bold text-brand-accent uppercase tracking-widest">Módulo 05</span>
+<h3 class="text-xl font-bold text-white mt-1 mb-2 group-hover:text-brand-accent transition">Como Dominar o VERLAN</h3>
+<p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              A regra de ouro da inversão silábica: <em>meuf (femme), relou (lourd), chelou (louche), zarbi (bizarre), keuf, vénère</em> desmistificados passo a passo.
+            </p>
+</div>
+<div class="mt-6 pt-3 border-t border-brand-cardBorder/60 text-[11px] font-semibold text-slate-300 flex items-center justify-between">
+<span class="">A Chave do Código Secreto</span>
+<i class="fa-solid fa-check text-brand-accent"></i>
+</div>
+</div>
+<!-- Module 6: Xingamentos & Insultos -->
+<div class="bg-brand-card hover:bg-slate-900 border border-brand-cardBorder hover:border-red-500/60 p-6 rounded-2xl transition duration-300 group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-red-500/10 text-red-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+<i class="fa-solid fa-skull"></i>
+</div>
+<span class="text-[11px] font-mono font-bold text-red-400 uppercase tracking-widest">Módulo 06</span>
+<h3 class="text-xl font-bold text-white mt-1 mb-2 group-hover:text-red-400 transition">Insultos &amp; Boca-Suja</h3>
+<p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              Porque xingar é a primeira coisa que você precisa entender para não ser humilhado no trânsito ou na briga: de <em>merde</em> a ofensas pesadas e nuances de deboche.
+            </p>
+</div>
+<div class="mt-6 pt-3 border-t border-brand-cardBorder/60 text-[11px] font-semibold text-slate-300 flex items-center justify-between">
+<span class="">Sem Filtros ou Censura</span>
+<i class="fa-solid fa-check text-red-400"></i>
+</div>
+</div>
+<!-- Module 7: Léxico do Corre & Festas -->
+<div class="bg-brand-card hover:bg-slate-900 border border-brand-cardBorder hover:border-purple-500/60 p-6 rounded-2xl transition duration-300 group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+<i class="fa-solid fa-cannabis"></i>
+</div>
+<span class="text-[11px] font-mono font-bold text-purple-400 uppercase tracking-widest">Módulo 07</span>
+<h3 class="text-xl font-bold text-white mt-1 mb-2 group-hover:text-purple-400 transition">Léxico do Corre &amp; da Noite</h3>
+<p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              O vocabulário da boemia, as palavras codificadas sobre substâncias, rolês noturnos, grana rápida e a gíria dos bairros periféricos franceses.
+            </p>
+</div>
+<div class="mt-6 pt-3 border-t border-brand-cardBorder/60 text-[11px] font-semibold text-slate-300 flex items-center justify-between">
+<span class="">Vida Noturna 100% Real</span>
+<i class="fa-solid fa-check text-purple-400"></i>
+</div>
+</div>
+<!-- Module 8: Encenações & Fichas Práticas -->
+<div class="bg-brand-card hover:bg-slate-900 border border-brand-cardBorder hover:border-brand-yellow/60 p-6 rounded-2xl transition duration-300 group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-yellow-500/10 text-brand-yellow flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+<i class="fa-solid fa-clapperboard"></i>
+</div>
+<span class="text-[11px] font-mono font-bold text-brand-yellow uppercase tracking-widest">Módulo 08</span>
+<h3 class="text-xl font-bold text-white mt-1 mb-2 group-hover:text-brand-yellow transition">Encenações &amp; Fichas em PDF</h3>
+<p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              Vídeos curtos simulando diálogos cotidianos para fixação, além de fichas organizadas de estudo para consulta no celular a qualquer momento.
+            </p>
+</div>
+<div class="mt-6 pt-3 border-t border-brand-cardBorder/60 text-[11px] font-semibold text-slate-300 flex items-center justify-between">
+<span class="">Material de Bolso Incluso</span>
+<i class="fa-solid fa-check text-brand-yellow"></i>
+</div>
+</div>
+</div>
+<!-- Mid-page Call to Action Button -->
+<div class="mt-14 max-w-md mx-auto rounded-2xl overflow-hidden border-2 border-brand-cardBorder/80 shadow-2xl relative bg-brand-card/60 p-3"><div class="text-center pb-2 text-xs font-mono uppercase text-brand-yellow font-bold tracking-widest">Mapa do Conteúdo das Aulas</div><img src="https://lh3.googleusercontent.com/aida/AEtjO1Xxk55_bLRmG-oBxXhFUW61MJ9Pjz778z4KrHsy5Znf76wY3WW8z-jEd1LQhj-6vlnO1jHQF19bRQ-lkuIaAoFifwuo5Gquf7sdAZHvRqFWzVl1g2Nz2ud75Y0yitEfon97mLE4avYJr205DhcamsR9jTjHrsSXVUjTTEzo6cCx6D_H9Fbh8QWhgIFjhiwBz891odhbBCWm0tiSLtu8hlymhfN_HXQCxfTyfQinW4HxKqA2fwJRVB7bu_I" alt="Conteúdo das aulas do Manual do Francês Informal" class="w-full rounded-xl object-contain"></div><div class="mt-16 text-center">
+<a class="inline-flex items-center gap-3 px-8 py-4 bg-brand-magenta hover:bg-pink-600 text-white font-extrabold text-lg rounded-xl shadow-glow-magenta hover:scale-105 transition" href="https://pay.hotmart.com/W102800251J?checkoutMode=10&amp;hotfeature=51" target="_blank">
+<span class="">QUERO ACESSAR TODOS OS MÓDULOS COM 85% OFF</span>
+<i class="fa-solid fa-chevron-right text-sm"></i>
+</a>
+</div>
+</div>
+</section>
+<!-- END: ContentModulesSection -->
+<!-- BEGIN: ExpertProfileSection -->
+<section class="py-20 bg-brand-card/40 border-y border-brand-cardBorder/60 relative">
+<div class="max-w-5xl mx-auto px-4 sm:px-6">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
+<!-- Creator Avatar / Persona Visual -->
+<div class="md:col-span-5 text-center">
+<div class="relative inline-block">
+<div class="absolute -inset-2 bg-gradient-to-r from-brand-yellow to-brand-magenta rounded-2xl blur-md opacity-40"></div>
+<!-- Styled representation of the instructor image provided in reference -->
+<div class="relative w-64 h-80 sm:w-72 sm:h-96 rounded-2xl overflow-hidden border-2 border-brand-yellow/80 shadow-2xl bg-slate-900 mx-auto group"><img src="https://lh3.googleusercontent.com/aida/AEtjO1UVQNn4S5bfUr8qhfWo_Wzu674h0lR6caCV4JMy5hcL5Pj59a3BR3OXxq1kUmsX0iaLU2u4lQ-MtZXkCSO35wHP3wENCfjYb1bS9B7XV71Kaa2WJLt0G958m3gF4ol8Cs1-JweHBmB0sGFf-nxGHFn6mTYwezJGipoya6zS_ifs-HBK2MmDEixVy3i_jTKCAn8t_vTMfjq0NyGOsUUnw13MbQH3qOsd1og9rLa6e4HGBjkF1Ak7lEGJJrE" alt="Gabriel Kondo em Paris" class="w-full h-full object-cover object-top"><div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent z-10"></div><div class="absolute bottom-0 inset-x-0 p-5 z-20 text-left"><span class="text-xs uppercase tracking-widest font-mono text-brand-yellow font-bold block">Criador do Manual</span><h4 class="text-2xl font-black text-white">Gabriel Kondo (Gabi)</h4><p class="text-xs text-slate-300">Ex-residente em Toulouse &amp; Vendée</p></div></div>
+<div class="absolute -bottom-4 -right-2 bg-brand-card border border-brand-cardBorder text-slate-200 px-3.5 py-1.5 rounded-lg text-xs font-bold shadow-lg flex items-center gap-1.5">
+<span class="">☕ Viveu 10+ anos na França</span>
+</div>
+</div>
+</div>
+<!-- Instructor Bio & Mission -->
+<div class="md:col-span-7">
+<span class="text-xs font-bold uppercase tracking-widest text-brand-yellow bg-brand-yellow/10 px-3.5 py-1 rounded-full border border-brand-yellow/20">
+            Quem tá no comando?
+          </span>
+<h2 class="font-display text-3xl sm:text-4xl font-extrabold text-white mt-4 mb-6">
+            Por que aprender comigo, Gabi?
+          </h2>
+<div class="space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
+<p class="">
+              Passei minha adolescência e minha vida adulta na França. Minhas referências de mundo e de língua foram construídas em <strong>Toulouse</strong> e na <strong>Vendée</strong> — nas ruas, nas escolas públicas, nos cafés e nos estádios, não em apostilas corporativas.
+            </p>
+<p class="">
+              Quando voltei para o Brasil e comecei a dar aulas de francês há mais de 6 anos, levei um susto: <span class="text-white font-semibold">o francês ensinado nos cursinhos brasileiros simplesmente não é o que os franceses falam</span>. É engessado, solene demais e desprovido de qualquer calor urbano.
+            </p>
+<p class="bg-brand-card border-l-4 border-brand-magenta p-4 rounded-r-xl text-slate-200 font-medium italic">
+              "Minha missão é democratizar o francês real. Quero que você vá para Paris, Lyon ou Marselha e seja tratado como um parceiro de mesa, não como um robô que decorou o dicionário."
+            </p>
+</div>
+<div class="mt-6 flex flex-wrap gap-4 text-xs font-semibold text-slate-400">
+<span class="flex items-center gap-1.5">
+<i class="fa-solid fa-graduation-cap text-brand-yellow"></i> +6 anos lecionando
+            </span>
+<span class="flex items-center gap-1.5">
+<i class="fa-solid fa-users text-pink-400"></i> Metodologia validada por milhares
+            </span>
+<span class="flex items-center gap-1.5">
+<i class="fa-solid fa-comments text-brand-accent"></i> Linguagem 100% autêntica
+            </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ExpertProfileSection -->
+<!-- BEGIN: PricingOfferSection -->
+<section class="py-24 bg-gradient-to-b from-brand-dark to-brand-darker relative overflow-hidden" id="oferta">
+<!-- Ambient Backdrop Flares -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-brand-magenta/10 rounded-full blur-[160px] pointer-events-none"></div>
+<div class="max-w-4xl mx-auto px-4 sm:px-6 relative">
+<!-- Multi-device Icon Bar -->
+<div class="text-center mb-8 flex justify-center items-center gap-4 text-slate-400">
+<i class="fa-solid fa-mobile-screen-button text-xl"></i>
+<i class="fa-solid fa-laptop text-2xl text-brand-yellow"></i>
+<i class="fa-solid fa-tablet-screen-button text-xl"></i>
+<span class="text-xs uppercase tracking-wider font-semibold text-slate-300 ml-2">Aproveite todo o conteúdo em qualquer dispositivo</span>
+</div>
+<!-- Main High-Converting Pricing Card -->
+<div class="bg-brand-card border-2 border-brand-yellow/80 rounded-3xl p-6 sm:p-12 shadow-glow-yellow/30 text-center relative overflow-hidden backdrop-blur-md">
+<!-- Top Label Ribbon -->
+<div class="inline-block bg-brand-yellow text-slate-950 font-black text-xs md:text-sm px-6 py-1.5 rounded-full uppercase tracking-wider mb-6 shadow-md">
+          🔥 OFERTA EXCLUSIVA COM 85% DE DESCONTO
+        </div>
+<h3 class="font-display text-2xl sm:text-3xl font-extrabold text-white uppercase tracking-tight">
+          Acesso Completo ao Manual do Francês Informal
+        </h3>
+<p class="text-slate-400 text-sm mt-2 max-w-lg mx-auto">
+          Todos os 8 módulos + Fichas de Estudo em PDF + Cenas práticas + Acesso imediato à área de membros.
+        </p>
+<!-- Price Anchor & Discount -->
+<div class="my-8 py-6 border-y border-brand-cardBorder/80 bg-brand-darker/60 rounded-2xl">
+<div class="text-xs text-slate-400 uppercase tracking-widest font-semibold mb-1">
+            De <span class="line-through text-slate-500">R$ 997,00</span> por apenas:
+          </div>
+<div class="flex items-baseline justify-center gap-2">
+<span class="text-2xl sm:text-3xl font-bold text-slate-200">12x de</span>
+<span class="font-display text-5xl sm:text-6xl font-black text-brand-yellow tracking-tight">R$ 15,47</span>
+</div>
+<p class="text-sm font-medium text-slate-300 mt-2">
+            ou <strong class="text-white">R$ 149,55</strong> à vista no PIX / Cartão
+          </p>
+<div class="mt-3 inline-flex items-center gap-1.5 bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 text-xs px-3 py-1 rounded-full font-mono">
+<i class="fa-solid fa-tag"></i> Cupom <strong>ARGOT</strong> aplicado automaticamente!
+          </div>
+</div>
+<!-- Conversion CTA Button -->
+<a class="w-full block py-5 px-8 bg-brand-yellow hover:bg-brand-yellowHover text-slate-950 font-extrabold text-xl sm:text-2xl rounded-2xl shadow-neon-btn hover:scale-[1.02] active:scale-[0.98] transition-all duration-200" href="https://pay.hotmart.com/W102800251J?checkoutMode=10&amp;hotfeature=51" rel="noopener noreferrer" target="_blank">
+          EU QUERO MEU ACESSO AGORA
+        </a>
+<!-- Guarantees & Payment Trust Signals -->
+<div class="mt-6 flex flex-wrap items-center justify-center gap-6 text-xs text-slate-400">
+<span class="flex items-center gap-1.5">
+<i class="fa-solid fa-lock text-emerald-400"></i> Pagamento 100% Seguro
+          </span>
+<span class="flex items-center gap-1.5">
+<i class="fa-solid fa-bolt text-brand-yellow"></i> Acesso Imediato
+          </span>
+<span class="flex items-center gap-1.5">
+<i class="fa-solid fa-shield text-brand-magenta"></i> Garantia Incondicional de 7 Dias
+          </span>
+</div>
+</div>
+</div>
+</section>
+<!-- END: PricingOfferSection -->
+<!-- BEGIN: GuaranteeAndSupportSection -->
+<section class="py-20 bg-brand-dark relative border-b border-brand-cardBorder/60 text-center">
+<div class="max-w-4xl mx-auto px-4 sm:px-6">
+<!-- Stars & Shield Guarantee -->
+<div class="mb-6 flex justify-center gap-1.5 text-brand-yellow text-xl">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<span class="font-mono text-xs uppercase tracking-widest text-slate-400 font-bold block mb-1">RISCO ZERO ABSOLUTO</span>
+<h2 class="font-display text-3xl sm:text-4xl font-extrabold text-white tracking-tight uppercase">
+        Garantia Incondicional de 7 Dias
+      </h2>
+<p class="text-slate-300 text-sm sm:text-base max-w-xl mx-auto mt-4 leading-relaxed">
+        Entre no curso, assista a todas as aulas de gírias, flerte e verlan. Se você não sentir que seu vocabulário francês explodiu em 7 dias, basta um clique e devolvemos <strong>100% do seu dinheiro</strong>. Sem perguntas, sem burocracia e continuamos amigos.
+      </p>
+<!-- Support / WhatsApp CTA -->
+<div class="mt-16 pt-12 border-t border-brand-cardBorder/80">
+<h3 class="text-xl sm:text-2xl font-bold text-white mb-2">Ainda com alguma dúvida?</h3>
+<p class="text-xs sm:text-sm text-slate-400 mb-6">Fale diretamente com nossa equipe no WhatsApp antes de fechar:</p>
+<a class="inline-flex items-center gap-3 px-8 py-3.5 bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-lg rounded-2xl shadow-lg hover:scale-105 transition" href="https://wa.link/lhs72d" rel="noopener noreferrer" target="_blank">
+<i class="fa-brands fa-whatsapp text-2xl"></i>
+<span class="">Zap do Gabi</span>
+</a>
+</div>
+<!-- Funny Quotation / Meme Box -->
+<div class="mt-16 bg-brand-card/60 border border-brand-cardBorder rounded-2xl p-6 max-w-md mx-auto">
+<div class="text-brand-yellow text-3xl mb-1">“</div>
+<p class="font-serif italic text-lg sm:text-xl text-slate-200 font-bold">
+          Vai comprar meu curso ou vai ficar moscano, tio?
+        </p>
+<div class="mt-2 text-xs font-mono font-bold text-pink-400 tracking-wider">
+          — LE PETIT GABI
+        </div>
+</div>
+</div>
+</section>
+<!-- END: GuaranteeAndSupportSection -->
+<!-- BEGIN: FAQSection -->
+<section class="py-20 bg-brand-darker relative" id="faq">
+<div class="max-w-4xl mx-auto px-4 sm:px-6">
+<div class="text-center mb-14">
+<span class="text-xs font-bold uppercase tracking-widest text-brand-yellow bg-brand-yellow/10 px-3.5 py-1 rounded-full border border-brand-yellow/20">
+          Tire Suas Dúvidas
+        </span>
+<h2 class="font-display text-3xl sm:text-4xl font-extrabold text-white mt-4 tracking-tight">
+          Perguntas Frequentes
+        </h2>
+</div>
+<!-- Interactive FAQ Accordion List -->
+<div class="space-y-4" data-purpose="faq-accordion">
+<!-- FAQ Item 1 -->
+<details class="group bg-brand-card border border-brand-cardBorder rounded-xl p-5 open:bg-slate-900 transition"><summary class="flex justify-between items-center cursor-pointer list-none font-bold text-white text-base sm:text-lg"><span class="">Para quem é este produto?</span><span class="text-brand-yellow group-open:rotate-180 transition-transform duration-200"><i class="fa-solid fa-chevron-down"></i></span></summary><p class="text-slate-300 text-sm mt-3 leading-relaxed border-t border-brand-cardBorder/60 pt-3">Para todos os estudantes de francês que tem interesse genuíno na totalidade da língua.</p></details>
+<!-- FAQ Item 2 -->
+<details class="group bg-brand-card border border-brand-cardBorder rounded-xl p-5 open:bg-slate-900 transition"><summary class="flex justify-between items-center cursor-pointer list-none font-bold text-white text-base sm:text-lg"><span class="">Como funciona o 'Prazo de Garantia'?</span><span class="text-brand-yellow group-open:rotate-180 transition-transform duration-200"><i class="fa-solid fa-chevron-down"></i></span></summary><p class="text-slate-300 text-sm mt-3 leading-relaxed border-t border-brand-cardBorder/60 pt-3">O Prazo de Garantia é o período que você tem para pedir o reembolso integral do valor pago pela sua compra, caso o produto não seja satisfatório.</p></details>
+<!-- FAQ Item 3 -->
+<details class="group bg-brand-card border border-brand-cardBorder rounded-xl p-5 open:bg-slate-900 transition"><summary class="flex justify-between items-center cursor-pointer list-none font-bold text-white text-base sm:text-lg"><span class="">O que é e como funciona o Certificado de Conclusão digital?</span><span class="text-brand-yellow group-open:rotate-180 transition-transform duration-200"><i class="fa-solid fa-chevron-down"></i></span></summary><p class="text-slate-300 text-sm mt-3 leading-relaxed border-t border-brand-cardBorder/60 pt-3">Os alunos e alunas que assistirem ao conteúdo completo e participarem das aulas ao vivo de tira-dúvidas receberão um certificado de conclusão no fim do curso.</p></details>
+<!-- FAQ Item 4 -->
+<details class="group bg-brand-card border border-brand-cardBorder rounded-xl p-5 open:bg-slate-900 transition"><summary class="flex justify-between items-center cursor-pointer list-none font-bold text-white text-base sm:text-lg"><span class="">Como acessar o produto?</span><span class="text-brand-yellow group-open:rotate-180 transition-transform duration-200"><i class="fa-solid fa-chevron-down"></i></span></summary><div class="text-slate-300 text-sm mt-3 leading-relaxed border-t border-brand-cardBorder/60 pt-3 space-y-2"><p class="">Você receberá o acesso por email. O conteúdo será acessado ou baixado através de um computador, celular, tablet ou outro dispositivo digital. Você também pode acessar o produto comprado nesta página:</p><ul class="font-mono text-xs text-brand-yellow space-y-1 bg-black/40 p-3 rounded-lg border border-brand-cardBorder"><li class="text-slate-300"><span class="text-brand-yellow font-bold">01</span> - Faça login na Hotmart clicando em 'Entrar'</li><li class="text-slate-300"><span class="text-brand-yellow font-bold">02</span> - Acesse o menu lateral, clique em 'Minha conta'</li><li class="text-slate-300"><span class="text-brand-yellow font-bold">03</span> - Clique em 'Minhas compras' e lá estarão todos os produtos que você já comprou!</li></ul></div></details>
+<!-- FAQ Item 5 -->
+<details class="group bg-brand-card border border-brand-cardBorder rounded-xl p-5 open:bg-slate-900 transition"><summary class="flex justify-between items-center cursor-pointer list-none font-bold text-white text-base sm:text-lg"><span class="">Como faço para comprar?</span><span class="text-brand-yellow group-open:rotate-180 transition-transform duration-200"><i class="fa-solid fa-chevron-down"></i></span></summary><p class="text-slate-300 text-sm mt-3 leading-relaxed border-t border-brand-cardBorder/60 pt-3">Para comprar este curso, clique no botão 'Comprar agora'. Lembre-se de que nem todos os cursos estarão sempre disponíveis para compra. É possível que o produtor esteja preparando uma nova turma ainda sem inscrições abertas.</p></details>
+</div>
+</div>
+</section>
+<!-- END: FAQSection -->
+<!-- BEGIN: Footer -->
+<footer class="py-12 bg-black border-t border-brand-cardBorder/80 text-center text-xs text-slate-500">
+<div class="max-w-6xl mx-auto px-4">
+<div class="mb-4">
+<span class="font-display font-black text-lg text-slate-300 tracking-wider">MANUAL DO FRANCÊS INFORMAL</span>
+</div>
+<p class="mb-4">Copyright © Todos os direitos reservados. Desenvolvido por Gabriel Kondo.</p>
+<div class="flex justify-center gap-6 text-slate-400">
+<a class="hover:text-slate-200 transition" href="#">Termos de Uso</a>
+<span class="">•</span>
+<a class="hover:text-slate-200 transition" href="#">Políticas de Privacidade</a>
+<span class="">•</span>
+<a class="hover:text-slate-200 transition" href="https://wa.link/lhs72d">Suporte</a>
+</div>
+</div>
+</footer>
+<!-- END: Footer -->
+
+
+</body></html>
